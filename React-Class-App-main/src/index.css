@@ -1,0 +1,131 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+body {
+  /* font-family:  "Poppins", "Bebas Neue", sans-serif; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    padding: 40px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family:  "Poppins", "Bebas Neue", sans-serif;
+    font-weight: 600;
+    color: #DC0155;
+    font-size: 36px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family:  "Poppins", "Bebas Neue", sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  display: inline;
+  padding: 0 20px;
+}
+
+li a{
+  color: #333333;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+
+/* .menu{
+
+} */
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+}
+
+.base-logo1, .base-logo2, .base-logo3{
+  margin-right: 30px;
+}
+
+.intro-text{
+    flex-basis: 40%;
+}
+
+.lady{
+  flex-basis: 60%;
+}
+
+.fine{
+    max-width: 100%; 
+    height: auto;
+}
+
+p{
+  font-family:  "Poppins", "Bebas Neue", sans-serif;
+}
+
+.foot-note{
+  font-family: "Bebas Neue", "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+h1{
+  font-family: "Bebas Neue", "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+button{
+    background-color: #DC0155;
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 20px 2px; 
+    cursor: pointer; 
+    border-radius: 32px; 
+}
+
+button:hover {
+  background-color: #45a049; 
+}
+
+button:active {
+  background-color: #3e8e41; 
+  transform: translateY(2px);
+}
+
